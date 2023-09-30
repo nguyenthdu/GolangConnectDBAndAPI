@@ -1,0 +1,15 @@
+chứa các nghiệp vụ. sẽ gọi vào storage để lấy dữ liệu
+business logic không được biết storage là gì và làm như thế nào chỉ cần interface của storage
+
+## 2.2. Các lớp trong mô hình MVC
+### 2.2.1. Model
+- Là lớp chứa các đối tượng dữ liệu
+- Là lớp chứa các nghiệp vụ
+- Là lớp chứa các hàm thao tác với CSDL
+- Là lớp chứa các hàm thao tác với các đối tượng dữ liệu
+- Là lớp chứa các hàm thao tác với các file
+- Là lớp chứa các hàm thao tác với các web service
+- Là lớp chứa các hàm thao tác với các web API
+- Là lớp chứa các hàm thao tác với các web socket
+- Là lớp chứa các hàm thao tác với các đối tượng dữ liệu
+
