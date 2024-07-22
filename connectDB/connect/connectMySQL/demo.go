@@ -10,7 +10,6 @@ func main() {
 	db, err := sql.Open("mysql", "root:password@tcp(127.0.0.1:3306)/demoGolang1")
 	if err != nil {
 		panic(err.Error())
-
 		defer db.Close()
 
 	}
